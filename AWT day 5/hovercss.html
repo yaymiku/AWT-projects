@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hover list</title>
+	<style type="text/css">
+		#MainUL li ul li {display: none;}
+		#MainUL li:hover ul li {display: block;}
+		#MainUL li:hover ul li ul li{display: none;}
+		#MainUL li ul li:hover ul li{display: block;}
+		#MainUL li ul li:hover ul li ul li{display:none;}
+		#MainUL li ul li ul li:hover ul li{display:block;}
+	</style>
+</head>
+<body>
+	<div style="width: 30%;">
+	<ul id="MainUL">
+		<li>
+			Google
+			<ul>
+				<li>
+					Gmail
+					<ul>
+						<li>
+							Log in
+							<ul>
+								<li>Log in with email or phone number</li>
+								<li>Forgot password?</li>
+							</ul>
+						</li>
+						<li>Sign up</li>
+					</ul>
+				</li>
+				<li>
+					Google drive
+					<ul>
+						<li>Upload</li>
+						<li>Download</li>
+					</ul>
+				</li>
+				<li>
+					Google maps
+					<ul>
+						<li>Home</li>
+						<li>Work</li>
+					</ul>
+				</li>
+				<li>YouTube</li>
+			</ul>
+		</li>
+		<li>
+			Facebook
+			<ul>
+				<li>Create account</li>
+				<li>Log in </li>
+			</ul>
+		</li>
+		<li>
+			Microsoft
+			<ul>
+				<li>
+					Bing
+					<ul>
+						<li>Search</li>
+						<li>Log in </li>
+					</ul>
+				</li>
+				<li>Linked in</li>
+			</ul>
+		</li>
+		<li>
+			MSN
+		</li>
+		<li>
+			Amazon
+			<ul>
+				<li>AWS</li>
+				<li>E-Commerce</li>
+				<li>Prime</li>
+				<li>
+					Cart
+					<ul>
+						<li>Add items to cart</li>
+						<li>Buy items from cart</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+</body>
+</html>
