@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Media Query</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+	<style type="text/css">
+		.d1
+		{
+			width: 400px;
+			height: 400px;
+			background-color: red;
+		}
+		@media(min-width: 500px)
+		{
+			.d1
+			{
+				height: 300px;
+				width: 300px;
+				background-color: palevioletred;
+			}	
+		}
+		@media(min-width: 768px)
+		{
+			.d1
+			{
+				height: 200px;
+				width: 200px;
+				background-color: seagreen;
+			}	
+		}
+		@media(min-width: 992px)
+		{
+			.d1
+			{
+				height: 150px;
+				width: 150px;
+				background-color: mediumorchid;
+			}	
+		}
+		@media(min-width: 1200px)
+		{
+			.d1
+			{
+				height: 100px;
+				width: 100px;
+				background-color: wheat;
+			}	
+		}
+	</style>
+</head>
+<body>
+	<div class="d1"></div>
+</body>
+</html>
